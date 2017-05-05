@@ -104,7 +104,7 @@ boot(void)
 
 	kprintf("EKSU's system version %s (%s #%d)\n",
 		GROUP_VERSION, buildconfig, buildversion);
-	kprintf("\nHello World!\n\n");
+	kprintf("\nHello World!\n");
 
 	/* Early initialization. */
 	ram_bootstrap();
